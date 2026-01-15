@@ -1,0 +1,44 @@
+Upload a Folder to GitHub Using CMD
+
+# 1. Open Command Prompt
+
+cd Desktop
+cd sql
+
+# 2. Initialize Git (only once)
+git init
+
+# 3. Add all files
+git add .
+
+# 4. Commit the files
+git commit -m "Initial commit - SQL practice"
+
+# 5. Create a new repository on GitHub (name: sql)
+# Copy the repository URL
+
+# 6. Connect local folder to GitHub
+git branch -M main
+git remote add origin https://github.com/username/sql.git
+
+# 7. Push files to GitHub
+git push -u origin main
+
+
+===================================================
+
+Add New Files to the Same Repository (Later)
+
+git status
+git add .
+git commit -m "Added new SQL files"
+git push
+
+===================================================
+
+| Command               | What it shows                     |
+|---------------------- |----------------------------------|
+| git log               | Who made commits                  |
+| git log file.java     | Commit history of a specific file |
+| git blame file.java   | Line-by-line author information   |
+| git status            | Current changes in the repository |
