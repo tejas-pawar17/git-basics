@@ -23,9 +23,9 @@ git remote add origin https://github.com/username/sql.git
 
 # 7. Push files to GitHub
 git push -u origin main
+ 
 
-
-===================================================
+==================================================*=
 
 Add New Files to the Same Repository (Later)
 
